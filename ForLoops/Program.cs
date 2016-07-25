@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLibrary
+namespace ForLoops
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Console");
-            Console.WriteLine();
+            for (var x = 0; x < 10; x++);
         }
     }
 }
